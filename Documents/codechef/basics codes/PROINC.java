@@ -1,0 +1,26 @@
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Main
+{
+	public static void main (String[] args) 
+	{
+	   Scanner sc = new Scanner(System.in);
+	   int t=sc.nextInt();
+	   for(int i=0; i<t; i++)
+	   {
+	       int a=sc.nextInt();
+	       int b=sc.nextInt();
+	       int c=a-b;
+	       int d=((10*a/100));
+	       int e=a+d;
+	       System.out.println(e-c);
+	   
+	       
+	   }
+	}
+}
